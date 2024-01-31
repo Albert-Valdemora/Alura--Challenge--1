@@ -4,6 +4,6 @@
 
 Para ejecutar el sistema, debes poner: 
 
-```[npm install react](https://albert-valdemora.github.io/Alura--Challenge--1/)https://albert-valdemora.github.io/Alura--Challenge--1/```
+```https://albert-valdemora.github.io/Alura--Challenge--1/)https://albert-valdemora.github.io/Alura--Challenge--1/```
 
 
