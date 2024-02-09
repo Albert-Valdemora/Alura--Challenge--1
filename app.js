@@ -17,11 +17,11 @@ function aceptacion(mensaje){
 }
 
 function rechazo(mensaje){
-  swal("Error!!!", mensaje, "error")
+  swal("Error!!!", mensaje, "error");
 }
 
 function copiado(mensaje){
-  swal("Copiado!!!", mensaje, "info")
+  swal("Copiado!!!", mensaje, "info");
 }
 
 function encritar() {
@@ -32,11 +32,9 @@ function encritar() {
     return;
   }
 
-  if (/[^a-z]/.test(texto)) {
+  if (/[^a-z\s.,!]/i.test(texto) || /[áéíóúüÁÉÍÓÚÜ]/.test(texto)) {
     rechazo("Solo letras minúsculas y sin acentos!");
     document.querySelector('.btn p').style.color = 'red';
-
-   
     return;
   }
 
